@@ -1,0 +1,156 @@
+body{
+	background: #BB99DA;
+}
+h1{
+	color:#1F0635;
+	font-family: Arial;
+	font-size:30px;
+	text-align: center;
+	
+}
+p{
+		color:#1F0635;
+	font-family: Arial;
+	font-size:15px;
+	text-align: center;
+	font-weight:bold;
+	font-style: italic;
+}
+table{
+	color:#1F0635;
+	font-family: Arial;
+	font-size:15px;
+	text-align: center;
+	font-weight:bold;
+	font-style: italic;
+	border:2;
+	width:90%;
+	
+	border-color:#1F0635;
+	border-style:solid;
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse: collapse;
+}
+tr{
+	color:#F7F6F8;
+	font-family: Arial;
+	font-size:15px;
+	text-align: center;
+	background-color:#1F0635;
+	border-color:#F7F6F8;
+	border-style:solid;
+
+}
+th{
+	color:#F7F6F8;
+	font-family: Arial;
+	font-size:15px;
+	text-align: center;
+	border-color:#F7F6F8;
+	border-style:solid;
+}
+td{
+	color:#F7F6F8;
+	font-family: Arial;
+	font-size:15px;
+	text-align: center;
+	border-color:#F7F6F8;
+	border-style:solid;
+}
+/*para quitar el borde y fondo a los iconos*/
+.sin{
+	border-style:transparent;
+    border:0;
+	background-color:transparent;
+}
+/*para diferentes tamaños de imagenes*/
+.tam{
+	width: 400;
+	height:150;
+}
+.tam1{
+	width: 250;
+	height:400;
+}
+.tam2{
+	width: 100;
+	height:100;
+}
+.tam3{
+	width: 400;
+    height:200;
+}
+.tam4{	
+    width: 200;
+    height:200;
+}
+
+font{
+		color:#1F0635;
+	font-family: Arial;
+	font-size:15px;
+	text-align: center;
+	font-weight:bold;
+	font-style: italic;
+}
+/*para los encabezados*/
+.div1{
+        background:linear-gradient(to bottom, #F5FBFD, #40B5DB);
+        border: 4px solid #CD5C5C;
+}
+.div2{
+        background:linear-gradient(to bottom, #F5FBFD, #6FC8E4);
+        border: 4px solid #FFC300;
+}
+.div3{
+        background:linear-gradient(to bottom, #F5FBFD, #A6D3E2);
+        border: 0px solid #7B241C;
+}
+/*para los botones que llevan a otras paginas*/
+.div4{
+        background:linear-gradient(to bottom, #F5FBFD, #D2DBDE);
+        border: 4px solid #34495E ;
+}
+.div5{
+         background:linear-gradient(to bottom, #F5FBFD, #D2DBDE);
+         border: 4px solid #34495E ;		 
+}
+
+.caja{
+	height:150px;
+	width:150px;
+	background:#CBDBF2;
+	border: 3px  solid #;
+	margin: 5px;
+	color:blue;
+	text-align:center;
+	font-family:"lato", sans-serif;
+	display:inline-block;
+}
+
+/*agregar sombra al div*/
+.caja:hover{
+/*              x  y   radio color*/
+	box-shadow:0 0 10 px red;
+	/*cambia la escala del tamaño de la caja*/
+	transform: scale(1.3);
+}
+.caja-texto{
+	padding-bottom:5px;
+	padding-top:2px;
+	font-size:30px;
+	color:blue;
+	font-weight:bold;
+}
+.text-adiccional{
+	padding-top:5px;
+	font-size:25px;
+}
+@font-face{
+     font-family:"Mi fuente";
+	 src: url(digital-7.ttf);
+}
+#fuente-digital{
+	font-family:"Mi fuente"
+}
